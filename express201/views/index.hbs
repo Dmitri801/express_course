@@ -1,0 +1,8 @@
+<h1>Rendered!! {{msg}}</h1>
+
+
+{{#each countries}}
+{{#if this.western}}
+<li>{{this.name}} -- {{this.capital}}</li>
+{{/if}}
+{{/each}}
